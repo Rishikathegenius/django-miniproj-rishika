@@ -2,10 +2,29 @@
 {% static "images" as baseUrl %}
 <!DOCTYPE html>
  <html class="no-js"> 
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Listing</title>
+	 <head>
+        <meta charset="utf-8">
+        <title>E Store - eCommerce HTML Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="eCommerce HTML Template Free Download" name="keywords">
+        <meta content="eCommerce HTML Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="{% static 'images/favicon.ico' %}" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="{% static 'lib/slick/slick.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/slick/slick-theme.css' %}" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
@@ -21,6 +40,9 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 	<link rel="shortcut icon" href="favicon.ico">
+
+
+        <!-- Favicon -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
 		<link href="{% static 'images/favicon.ico' %}" rel="icon">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +62,7 @@
 	<link rel="stylesheet" href="{% static 'css/superfish.css' %}">
 
 	<link rel="stylesheet" href="{% static 'css/style.css' %}">
-<link href="{% static 'images/favicon.ico' %}" rel="icon">
+
 		<!-- Google Fonts -->
 
 
@@ -122,7 +144,7 @@
 			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"  style="background-image: url(images/cover_bg_1.jpg);">
 				<div class="desc animate-box">
 					<h2>Retail Store.</h2>
-					<span><a class="btn btn-primary btn-lg" href="/inside">Get Started</a></span>
+					<span><a class="btn btn-primary btn-lg" href="/inside">Welcome</a></span>
 					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
 
 				</div>
@@ -202,21 +224,21 @@
                                 <img src="{% static 'images/slider-1.jpg' %}"alt="Slider Image" />
                                 <div class="header-slider-caption">
                                     <p>Brands That You Will Like</p>
-                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Add Now</a>
                                 </div>
                             </div>
                             <div class="header-slider-item">
                                 <img src="{% static 'images/slider-2.jpg' %}" alt="Slider Image" />
                                 <div class="header-slider-caption">
                                     <p>All Trends Up To Date</p>
-                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Add Now</a>
                                 </div>
                             </div>
                             <div class="header-slider-item">
                                 <img src="{% static 'images/slider-3.jpg' %}" alt="Slider Image" />
                                 <div class="header-slider-caption">
                                     <p>Go Pro</p>
-                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <a class="btn" href="/product"><i class="fa fa-shopping-cart"></i>Add Now</a>
                                 </div>
                             </div>
                         </div>
@@ -226,15 +248,10 @@
                             <div class="img-item">
                                 <img src="{% static 'images/category-1.jpg' %}" />
                                 <a class="img-text" href="">
-                                    <p>R Store Gets You Everything!!/p>
+                                    <p>R Store Gets You Everything!!</p>
                                 </a>
                             </div>
-                            <div class="img-item">
-                                <img src="{% static 'images/category-2' %}" />
-                                <a class="img-text" href="">
-                                    <p>All Trends You will Like ..Go Fashion </p>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -725,9 +725,9 @@ figure {
 }
 
 .btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+    color: #FF6F61;
+    background: #ffffff;
+    border: 1px solid #FF6F61;
 }
 
 .btn {
@@ -756,6 +756,7 @@ figure {
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
 }
+
 
 .js .animate-box {
   opacity: 0;

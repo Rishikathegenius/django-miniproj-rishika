@@ -9,6 +9,16 @@
     <script src="main.js"></script>
 </head>
 <body>
+<style>
+body {
+  background-image: url('static/images/back.jpg');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+
+}
+
+</style>
     <form action="register" method="post">
         {% csrf_token %}
         <input type="text" name="first_name" placeholder="First Name"><br>

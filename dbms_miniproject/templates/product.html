@@ -77,6 +77,14 @@
             }
     </style>
 	<body>
+	<style>
+body {
+  background-image: url('static/images/back.jpg');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 		<div id="fh5co-header">
@@ -144,25 +152,7 @@
 	<br>
 	<br>
 	<br>
-			<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"  style="background-image: url(images/cover_bg_1.jpg);">
-				<div class="desc animate-box">
-					<h2>R Store</h2>
-					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
-					<span><a class="btn btn-primary btn-lg" href="/addproduct1"> <img src="{% static 'images/slider-1.jpg' %}" alt="Slider Image" /></a></span>
-					<span><a class="btn btn-primary btn-lg" href="/addproduct2"> <img src="{% static 'images/product-2.jpg' %}" alt="Slider Image" /></a></span>
-					<span><a class="btn btn-primary btn-lg" href="/addproduct3"> <img src="{% static 'images/slider-3.jpg' %}" alt="Slider Image" /></a></span>
-
-
-
-
-<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"  style="background-image: url(images/cover_bg_1.jpg);">
-				<div class="desc animate-box">
-
-<div class="table-responsive table mt-10 " style="border:1px solid black;margin-left:100px;margin-right:100px;" id="dataTable" role="grid" aria-describedby="dataTable_info">
+			<div class="table-responsive table mt-10 " style="border:1px solid black;margin-left:100px;margin-right:100px;" id="dataTable" role="grid" aria-describedby="dataTable_info">
 
                   <font size="5">
 
@@ -180,50 +170,49 @@
                                     <tbody>
 
                                       	{% for pr,br in myfile %}
-                                     <tr> 
+                                     <tr>
 
                                             <td>{{pr.product_name}}</td>
                                             <td>{{pr.product_type}}</td>
                                             <td>{{pr.product_price}}</td>
                                             <td>{{br.brand_name}}</td>
                                             <td>{{br.no_of_products}}</td>
-                                        </tr> 
+                                        </tr>
         	                            {% endfor %}
-                                     
+
                                     </tbody>
 
-                                    
+
                                 </table>
                                 </font>
 
 
                             </div>
 
-            
+
 				   {% csrf_token %}
-				<br>
-				<br>
+			<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5"  style="background-image: url(images/cover_bg_1.jpg);">
+				<div class="desc animate-box">
+					<h2>R Store</h2>
+					<!-- <span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span> -->
+					<span><a class="btn btn-primary btn-lg" href="/addproduct1"> <img src="{% static 'images/product-crop.jpg' %}" alt="Slider Image" /></a></span>
+					<span><a class="btn btn-primary btn-lg" href="/addproduct2"> <img src="{% static 'images/product-2.jpg' %}" alt="Slider Image" /></a></span>
+					<span><a class="btn btn-primary btn-lg" href="/addproduct3"> <img src="{% static 'images/slider-3.jpg' %}" alt="Slider Image" /></a></span>
 
-
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="#"><i class="icon-facebook2"></i></a>
-								<a href="#"><i class="icon-instagram"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
-								<a href="#"><i class="icon-youtube"></i></a>
-							</p>
-							<p>Copyright 2016 Free Html5 <a href="#">Listing</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
-						</div>
-					</div>
 				</div>
 			</div>
-		</footer>
-	
+
+
+
+
+
+				<br>
+				<br>
+
+
+
 
 	</div>
 	<!-- END fh5co-page -->
